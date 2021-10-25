@@ -1,0 +1,11 @@
+{
+  "name": "node-gql-react-test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "David Chapman <davidchappy@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
