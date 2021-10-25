@@ -6,6 +6,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
-  ]
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "yarn workspace node-gql-react-test-frontend build",
+    "start": "yarn workspace node-gql-test-backend start",
+    "dev": "yarn workspace node-gql-react-test-frontend start & yarn run start"
+  },
+  "packageManager": "yarn@3.0.2"
 }
